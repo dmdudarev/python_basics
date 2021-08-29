@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8e6086-e87b-4ee3-86d2-16d14445a2c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_4/lesson_4.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2.6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2.6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,7 +32,9 @@
     <setting file="file://$PROJECT_DIR$/lesson_2.3.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1wrqjBvOX6SlKtjnb4lInIjxpv2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
