@@ -11,10 +11,11 @@ with open("lesson_5.7_text.txt", "r", encoding="utf-8") as my_file:
         a = line.index(" ")
         my_list = [float(num) for num in (''.join(c for c in line if c in my_string)).split()]
         my_profit = reduce(lambda x, y: x - y, my_list)
-        av_profit_list.append(my_list[0]) if my_profit >= 0 else av_profit_list
+        av_profit_list.append(my_profit) if my_profit >= 0 else av_profit_list
         my_dict.update({line[:a]: my_profit})
     average_profit = mean(av_profit_list)
     my_result = [my_dict, {'average_profit': average_profit}]
     print(my_result)
+
 with open("lesson_5.7_json.json", "a", encoding="utf-8") as my_file2:
     dump(my_result, my_file2, indent=4, ensure_ascii=False)
