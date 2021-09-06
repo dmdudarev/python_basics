@@ -22,7 +22,7 @@ class Car:
         if self.is_police:
             print(f"{self.color} {self.name} включила сирену")
         else:
-            print(f"{self.color} {self.name} включила сирену (водитель нарушает правила и может лишиться прав)")
+            print(f"{self.color} {self.name} включила сирену (водитель не полицейский и может лишиться прав)")
 
 
 class TownCar(Car):
